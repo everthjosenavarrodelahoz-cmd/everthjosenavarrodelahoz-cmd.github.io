@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet"href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videojuegos en la Nube</title>
+  
+</head>
+<body>
+
+  <header>
+    <h1>🎮 Videojuegos en la Nube</h1>
+    <p>El futuro del gaming sin límites de hardware</p>
+    <a href="#plataformas" class="btn">Ver Plataformas 🚀</a>
+  </header>
+
+  <nav>
+    <a href="#que-es">¿Qué es?</a>
+    <a href="#ventajas">Ventajas</a>
+    <a href="#plataformas">Plataformas</a>
+    <a href="#conclusion">Conclusión</a>
+  </nav>
+
+  <section id="que-es" class="subtema">
+    <h2>¿Qué es el Cloud Gaming?</h2>
+    <p>El cloud gaming o videojuegos en la nube es una tecnología que permite jugar videojuegos a través de internet sin necesidad de contar con un dispositivo potente. Todo el procesamiento gráfico y de datos ocurre en servidores remotos, y el jugador solo recibe una transmisión del juego en tiempo real.</p>
+    <p>Esto significa que se puede jugar en computadoras de bajo rendimiento, celulares, tablets o televisores inteligentes, siempre y cuando exista una buena conexión a internet. Es como ver una película en streaming, pero en lugar de solo mirar, interactúas con el contenido.</p>
+  </section>
+
+  <div class="img" id="slides">
+        <img src="D:\Archivos de Usuario\Downloads\ventahas-web.jpg" alt="Plataformas Cloud">
+      </div>
+
+       
+
+  <section id="ventajas" class="subtema">
+    <h2>Ventajas</h2>
+    <ul>
+      <li><b>No necesitas una consola o PC gamer:</b> los juegos se ejecutan en la nube, no en tu dispositivo.</li>
+      <li><b>Acceso desde cualquier lugar:</b> puedes jugar en tu celular, tablet o televisor, siempre que tengas internet.</li>
+      <li><b>Actualizaciones automáticas:</b> no tienes que descargar ni instalar parches, todo se gestiona en los servidores.</li>
+      <li><b>Menor gasto en hardware:</b> no necesitas gastar en tarjetas gráficas o procesadores potentes.</li>
+      <li><b>Bibliotecas enormes:</b> servicios como Xbox Cloud Gaming y GeForce NOW permiten acceder a cientos de juegos instantáneamente.</li>
+    </ul>
+  </section>
+
+  
+
+  <section id="Desventajas" class="subtema">
+    <h2>Desventajas</h2>
+    <li><b></b>Imagen de mala Calidad ya que esta se suele comprimir demasiado haciendo que se vea demasiado borroso
+    <li><b></b>Si no constas de una red Wifi este consumira gran cantidades de Gb del dispositivo siendo muy poco favorable esa opciòn
+    <li><b></b>Muchas veces algunos videojuegos puede que no esten disponibles en tu region haciendote imposible el acceso a estos</p>
+  </section>
+
+  <section id="plataformas" class="subtema">
+    <h2>Plataformas Populares</h2>
+    <p>Algunas de las plataformas de videojuegos en la nube más conocidas son:</p>
+    <ul>
+      <li><b>Xbox Cloud Gaming (xCloud):</b> parte de Xbox Game Pass, permite jugar títulos de Microsoft y terceros en diferentes dispositivos.</li>
+      <li><b>NVIDIA GeForce NOW:</b> permite transmitir juegos que ya tengas en librerías como Steam o Epic Games.</li>
+      <li><b>PlayStation Plus Premium:</b> ofrece títulos clásicos y actuales para transmitir directamente desde la nube.</li>
+      <li><b>Amazon Luna:</b> un servicio basado en suscripción de canales de juegos organizados por géneros.</li>
+    </ul>
+
+    
+    
+      <div class="slides" id="slides">
+        <img src="D:\Archivos de Usuario\Downloads\what-cloud-gaming-service-will-be-available-on-the-steam-v0-gr7d56iimra81.webp" alt="Plataformas Cloud">
+
+      </div>
+  </section>
+
+<section id="conclusion" class="subtema">
+    <h2>Conclusión</h2>
+    <li>El cloud gaming representa un cambio revolucionario en la industria del entretenimiento digital. Permite que cualquier persona con internet pueda disfrutar de videojuegos de alta calidad, sin importar el dispositivo que tenga. Aunque todavía existen retos como la latencia y la necesidad de conexiones rápidas, el futuro apunta a que esta forma de jugar será cada vez más común.</p>
+    <li>En definitiva, los videojuegos en la nube abren la puerta a un gaming más accesible, inclusivo y flexible para todos los jugadores del mundo 🌎.</p>
+  </section>
+
+  <footer>
+    <p>Uso para fines educativos y nada mas, no se busca humillar a nadie ni a ningun sitio en especifico
+"</p>
+    <p>Everth Navarro</p>
+    <p>2025º</p>
+  </footer>
+
+  <script>
+    let index = 0;
+    function mover(direccion) {
+      const slides = document.getElementById("slides");
+      const total = slides.children.length;
+      index = (index + direccion + total) % total;
+      slides.style.transform = `translateX(${-index * 100}%)`;
+    }
+  </script>
+
+</body>
+</html>

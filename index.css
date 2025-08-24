@@ -1,0 +1,144 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+    }
+
+    header {
+      background: url("https://wallpapercave.com/wp/wp6766054.jpg") no-repeat center center/cover;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #e94560;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    header p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    nav {
+      background-color: rgba(0,0,0,0.7);
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #e94560;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .subtema {
+      background: rgba(15, 52, 96, 0.8);
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    }
+
+    h2 {
+      color: #e94560;
+    }
+
+    .imagen {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .imagen img {
+      max-width: 50%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    }
+
+    footer {
+      background-color: #16213e;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      color: #aaaaaa;
+    }
+
+    /* Botón interactivo */
+    .btn {
+      display: inline-block;
+      background: #e94560;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff758f;
+      transform: scale(1.1);
+    }
+
+    /* Carrusel */
+    .carrusel {
+      position: relative;
+      max-width: 50%; 
+      margin: auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 30%;
+      border-radius: 12px;
+    }
+
+    .botones {
+      position: absolute;
+      top: 50%;
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .botones button {
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      font-size: 2em;
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 50%;
+    }
+
+    .botones button:hover {
+      background: #e94560;
+    }
+    img{ 
+        position-area: center;
+        width: 650px; 
+    }
